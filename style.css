@@ -1,0 +1,95 @@
+
+
+	.login_div1 , .login_div2
+	{
+		background:blueviolet;
+		float: none;
+		border-radius: 15px;
+        margin-top:30px;
+		margin-bottom:30px;
+		color:white;
+	}
+	#one{
+		width:50%;
+		height:8px;
+
+	    animation-name: under;
+		animation-duration:2s;
+		animation-iteration-count: infinite;
+	
+	}
+	#two{
+		animation-name:twwo;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-top:30px;
+		border-style:solid;
+		border-radius: 20px;
+		border-color:blueviolet
+	}
+	.hesd{
+		
+		font-size:40px;
+          color:white;
+		margin-top:45%;
+		font-family: 'Nunito', sans-serif;
+	}
+	
+	
+.mar{
+	 padding-top:20px;
+		margin-bottom:30px;
+}
+#hh{
+	height:100vh;
+	background:linear-gradient(blueviolet,rgb(189, 15, 108),white);
+
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-top:20px;
+    margin-bottom:20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+@keyframes under{
+	0%{background-color:blueviolet;width:100%};
+	50%{background-color: violet;width:50%};
+	100%{background-color: violet;width:0%};
+
+}
+@keyframes twwo {
+	0%{border-color:blueviolet};
+	50%{border-color: violet};
+	100%{border-color: violet};
+}
+#btn{
+	background:linear-gradient(blueviolet,rgb(189, 15, 108));
+	width:30%;
+	height:50px;
+	font-weight: bold;
+	font-size: larger;
+}
+#btn:hover{
+	background:linear-gradient(rgb(189, 15, 108),blueviolet);
+	width:30%;
+	height:50px;
+}
