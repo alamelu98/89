@@ -11,22 +11,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:blue;color:white">
-    <h2 id="player1_name"></h2><span id="player1_score"></span>
-    <h2 id="player1_name"></h2><span id="player1_score"></span>
+<body style="background-color:blueviolet;color:white">
+    <h2 id="player1_name"></h2><span id="player1_score" style="font-size:36px;color:white"></span>
+    <br>
+    <h2 id="player2_name"></h2><span id="player2_score" style="font-size:36px;color:white"></span>
 <center>
     <div class="container">
         <h2>The math quiz game</h2>
-        <h3>Question turn</h3><span ></span>
-        <h3>Answer turn</h3><span ></span>
-        <div id="output">
-            <label style="color:black">Answer: <input type="text" class="form-control"></label>
-           
-            <br>
-            <button type="submit" class="btn btn-success" onclick="send()">Submit</button>
-        </div>
+        <h3 id="player_question"></h3><span ></span>
+        <h3 id="player_answer"></h3><span ></span>
+        <div id="output"></div>
+        <br>
+        <br>
+        <label>Number1</label>
+        <br>
+        <br>
+        <input type="text" id="num1" placeholder="number1" class="form-control">
+        <br>
+        <br>
+        <label>Number2</label>
+        <br>
+        <br>
+        <input type="text" id="num2" placeholder="number2" class="form-control">
+        <br>
+        <br>
+        <button class="btn btn-info" onclick="send()">Send</button>
     </div>
 </center>
     
 </body>
+<script src="gamepage.js"></script>
 </html>
