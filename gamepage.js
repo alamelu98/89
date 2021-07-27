@@ -28,7 +28,7 @@ var question_turn="player1";
 var answer_turn ="player2";
 function check()
 {
-    var get_answer=document.getElementById("ip").value;
+    var get_answer=parseInt(document.getElementById("ip").value);
     console.log(get_answer);
     var ans=number1*number2;
     console.log(ans);
